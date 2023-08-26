@@ -1,0 +1,24 @@
+.cpi-input .form-control {
+    padding-left: 0;
+}
+
+.cpi-input .form-control:focus,
+.cpi-input .form-control:active {
+    outline: none;
+    box-shadow: unset;
+}
+
+.cpi-input .cpi-drop,
+.cpi-input .cpi-drop:hover,
+.cpi-input .cpi-drop:active,
+.cpi-input .cpi-drop:focus {
+    background-color: #f8f9fa;
+    outline: none;
+    box-shadow: unset;
+    border: none;
+}
+
+.cpi-input-focus .input-group {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}

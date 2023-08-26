@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="cpi.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="d-flex align-items-center justify-content-center vh-100 w-100">
+    <div style="max-width: 420px" class="mx-auto">
+        <form>
+            <div class="cpi-input">
+                <div class="input-group mb-3 border rounded">
+                    <button class="btn btn-light dropdown-toggle d-flex align-items-center cpi-drop" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="me-1">🇮🇳</span>
+                    </button>
+                    <div class="dropdown-menu w-100">
+                        <button type="button" class="dropdown-item" data-cpi-icon="🇮🇳" data-cpi-ext="+91"
+                                data-cpi-min-length="10" data-cpi-max-length="10">
+                            🇮🇳 India (+91)
+                        </button>
+                        <button type="button" class="dropdown-item" data-cpi-icon="🇦🇪" data-cpi-ext="+971"
+                                data-cpi-min-length="8" data-cpi-max-length="9">
+                            🇦🇪 United Arab Emirates (+971)
+                        </button>
+                    </div>
+                    <span class="input-group-text bg-white text-muted border-0 cpi-ext-txt">+91</span>
+                    <input type="text" class="form-control border-0 phone-input flex-shrink-1" style="outline: none;"
+                           pattern="[0-9]+" required minlength="10" maxlength="10" title="Enter valid mobile number">
+                </div>
+                <input type="hidden" class="country-code-input">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<script src="cpi.js">
+
+</script>
+</body>
+</html>
