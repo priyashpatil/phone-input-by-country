@@ -7,11 +7,11 @@ The "Phone Input by Country" is a freely available package that integrates seaml
 To get started, include the following CDN links in the `<head>` section of your HTML document and the JavaScript link just before the closing `</body>` tag:
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/priyashpatil/country-phone-input@0.0.1/cpi.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
+<link href="https://cdn.jsdelivr.net/gh/priyashpatil/phone-input-by-country@0.0.1/cpi.css" rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer">
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/priyashpatil/country-phone-input@0.0.1/cpi.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/gh/priyashpatil/phone-input-by-country@0.0.1/cpi.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
 Next, insert the provided HTML code as shown below:
