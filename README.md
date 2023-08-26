@@ -2,7 +2,7 @@
 
 The "Phone Input by Country" is a freely available package that integrates seamlessly with Bootstrap 5. This integration simplifies the process of adding country-specific phone input fields, complete with uncomplicated validation.
 
-<p align="center">
+<p align="center" style="max-width: 420px; margin: 0 auto;">
   <img src="marketing/demo.gif" alt="Phone Input by Country Demo">
 </p>
 
